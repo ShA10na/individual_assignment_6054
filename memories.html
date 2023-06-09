@@ -1,0 +1,173 @@
+<html>
+<head>
+	<title>NURSHARINA</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body bgcolor= "#FFF5EE">
+
+<a name="top_page"></a>
+
+	<!--- NAVIGATION BAR START --->
+	<div class="topnav">
+	<a class="active" href="index.html">
+	<img src="assest/images/uitmlogo.png" width="100px"></a>
+	
+	<a href="aboutme.html">About me</a>
+	<a href="education.html">Education</a>
+	<a href="memories.html">Memories</a>
+	<a href="more.html">More</a>
+	<a href="contact.html">Contact</a>
+
+	</div>
+	<!--- NAVIGATION BAR END --->
+<br>
+<br>	
+<hr color="#DC143C" size="4">
+<hr color="F88379" size="4">
+<center><b><font color= "#DC143C" size="6" face="Goudy Stout">📸MEMORIES WITH FRIENDS📸</b></font><center>
+<hr color="F88379" size="4">
+<hr color="#DC143C" size="4">
+<br>
+<br>
+	
+<br>
+<center><b><font color= "#DC143C" size="6" face="Forte">	✨KIM1203E✨ </b></font><center>
+<br>
+<center>
+	<video width="720px" autoplay muted loop>
+	<source src="assest/videos/sem3.mp4" type="video/mp4">
+</video>
+</center>
+<br>
+<audio controls>
+	<source src="assest/audios/Growup_skz.mp3" type="audio/mp3">
+</audio> 
+<br>
+
+<br>
+<center><b><font color= "#DC143C" size="6" face="Forte">	✨KIM1204E - "DISBAND"✨ </b></font><center>
+<br>
+<center>
+	<video width="720px" autoplay muted loop>
+	<source src="assest/videos/lastsem.mp4" type="video/mp4">
+</video>
+</center>
+<br>
+<audio controls>
+	<source src="assest/audios/stay_bp.mp3" type="audio/mp3">
+</audio> 
+<br>
+
+<br>
+<center><b><font color= "#DC143C" size="6" face="Forte">	✨KIM1204A✨ </b></font><center>
+<br>
+<center>
+	<video width="720px" autoplay muted loop>
+	<source src="assest/videos/4a.mp4" type="video/mp4">
+</video>
+</center>
+<br>
+<audio controls>
+	<source src="assest/audios/htgu_ag.mp3" type="audio/mp3">
+</audio> 
+<br>
+
+<br>
+<center><b><font color= "#DC143C" size="6" face="Forte">	✨ASSOCIATION LIBRARY MANAGEMENT✨ </b></font><center>
+<br>
+<center>
+	<video width="720px" autoplay muted loop>
+	<source src="assest/videos/fpm.mp4" type="video/mp4">
+</video></center>
+<br>
+<audio controls>
+	<source src="assest/audios/Sw_skz.mp3" type="audio/mp3">
+</audio> 
+<br>
+<br>
+<center><b><font color= "#DC143C" size="6" face="Forte">	❤️‍🔥✨DA'KIDS✨❤️‍🔥 </b></font><center>
+<br>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="assest/images/photo1.jpg" style="width:500px">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="assest/images/photo2.jpg" style="width:500px">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="assest/images/photo3.jpg" style="width:500px">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="assest/images/photo4.jpg" style="width:500px">
+</div>
+
+
+
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<br>
+<audio controls>
+<source src="assest/audios/teenagedream.mp3" type="audio/mp3">
+</audio> 
+<br>
+
+<br><br><br>
+
+<a href="#Top_Page">
+ <img src="assest/images/highlighter.png" width="70px"align="right"
+</a>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer>
+  <p>Copyright @ sharina 2023</p>
+</footer>
+
+</body>
+</html>
